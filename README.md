@@ -5,7 +5,19 @@ A well-featured handler around selenium/chromedriver to handle batch processing 
 
 ## Pre-Req
 
-Make sure to have [chromedriver installed](https://sites.google.com/a/chromium.org/chromedriver/downloads) and than add:
+Make sure to have the correct [chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads). Correct means, it **must be** the same version as the installed Chrome on your machine/server. In Ubuntu you can check your version using 
+```
+$ sudo apt-get upgrade google-chrome-stable
+google-chrome-stable ist schon die neueste Version (83.0.4103.97-1).
+```
+
+So you need to download the correct version from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads) and than go like this:
+
+```
+wget https://chromedriver.storage.googleapis.com/83.0.4103.39/chromedriver_linux64.zip
+unzip chromedriver_linux64.zip
+sudo mv chromedriver /usr/bin/chromedriver 
+```
 
 ```
 pip3 install selenium
