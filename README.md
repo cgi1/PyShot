@@ -5,7 +5,7 @@ A well-featured handler around selenium/chromedriver to handle batch processing 
 
 ## Pre-Req
 
-Make sure to have
+Make sure to have [chromedriver installed](https://sites.google.com/a/chromium.org/chromedriver/downloads) and than add:
 
 ```
 pip3 install selenium
