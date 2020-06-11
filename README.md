@@ -1,5 +1,5 @@
 # PyShot
-A well-featured handler around selenium/chromedriver to handle batch processing of input urls.
+A quick and easy to use handler around selenium/chromedriver to handle batch processing of input urls.
 
 # Installation
 
